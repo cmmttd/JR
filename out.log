@@ -22980,3 +22980,18 @@ java.net.UnknownHostException: javarush.ru
 2019-06-27 16:42:46 INFO  ApacheHttpClient.startGA(35) - GAService started.
 2019-06-27 16:42:46 INFO  AbstractRestApiClient.startService(71) - EventsService started.
 2019-06-27 16:42:48 INFO  ApacheHttpClient.getWebResourceAsStream(485) - responseCode = 200
+2019-06-27 16:43:46 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
+2019-06-27 16:44:46 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
+2019-06-27 16:45:46 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
+2019-06-27 16:46:46 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
+2019-06-27 16:47:46 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
+2019-06-27 16:48:46 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
+2019-06-27 16:49:46 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
+2019-06-27 16:50:46 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
+2019-06-27 16:51:46 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
+2019-06-27 16:52:46 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
+2019-06-27 16:53:46 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
+2019-06-27 16:54:46 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
+2019-06-27 16:55:24 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
+
+2019-06-27 16:55:24 INFO  ApacheHttpClient.getTask(471) - responseCode = 200
