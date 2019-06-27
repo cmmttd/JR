@@ -1,1 +1,3 @@
-# ignore logs*.log*.xml
+# ignore logs
+*.log
+*.xml
