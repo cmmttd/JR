@@ -25,10 +25,11 @@ public class Solution {
         }
     }
 
-    public static class BigFox {
-        public Color() {
+    public static class BigFox extends Fox{
+        public Color getColor() {
             return Color.GRAY;
         }
+
     }
 
 }
