@@ -15,13 +15,12 @@ public class Solution {
         static Hen getHen(String country) {
             Hen hen = null;
             //напишите тут ваш код
-            if (country )
+            if (country.equals(Country.UKRAINE)) hen = new UkrainianHen();
+            else if (country.equals(Country.RUSSIA)) hen = new RussianHen();
+            else if (country.equals(Country.BELARUS)) hen = new BelarusianHen();
+            else if (country.equals(Country.MOLDOVA)) hen = new MoldovanHen();
             return hen;
         }
     }
 
 }
-
-//TODO: 1. Make constructor in any CountryHen (String country) & eggCount++
-//      2. Write logic in Country class when take a String and get Hen
-

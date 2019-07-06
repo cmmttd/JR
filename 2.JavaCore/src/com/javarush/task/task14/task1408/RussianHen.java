@@ -2,12 +2,8 @@ package com.javarush.task.task14.task1408;
 
 public class RussianHen extends Hen{
 
-    private String country;
-    private static int count = 0;
-
-//    public Hen(String country){
-//        this.country = country;
-//    }
+    static String country = Country.RUSSIA;
+    static int count = 7;
 
     @Override
     public int getCountOfEggsPerMonth() {
@@ -16,6 +12,6 @@ public class RussianHen extends Hen{
 
     @Override
     public String getDescription() {
-        return super.getDescription() + "Моя страна - " + country + ". Я несу " + count + " яиц в месяц.";
+        return super.getDescription() + " Моя страна - " + country + ". Я несу " + count + " яиц в месяц.";
     }
 }
