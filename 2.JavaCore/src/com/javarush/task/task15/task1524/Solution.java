@@ -5,9 +5,7 @@ package com.javarush.task.task15.task1524;
 */
 
 public class Solution {
-    static {
-        System.out.println("Static block");
-    }
+
 
     {
         System.out.println("Non-static block");
@@ -30,6 +28,10 @@ public class Solution {
         System.out.println("static void init()");
     }
 
+    static {
+        System.out.println("Static block");
+    }
+
     public static void main(String[] args) {
         System.out.println("public static void main");
         Solution s = new Solution();
@@ -37,7 +39,8 @@ public class Solution {
 
     public static void printAllFields(Solution obj) {
         System.out.println("static void printAllFields");
-        System.out.println(obj.name);
         System.out.println(obj.i);
+        System.out.println(obj.name);
+
     }
 }
