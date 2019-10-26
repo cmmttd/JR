@@ -1,2 +1,9 @@
 #all .log
 *.log
+.1.txt
+.idea/
+Ins.png
+Instruction.png
+JavaRushPlugin.properties
+JavaRushTasks.iml
+out/
