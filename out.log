@@ -42627,3 +42627,25 @@ java.net.UnknownHostException: javarush.ru
 2019-10-26 20:27:21 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
 2019-10-26 20:28:21 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
 2019-10-26 20:28:21 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-10-26 20:29:21 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-10-26 20:29:21 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-10-26 20:30:21 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-10-26 20:30:21 INFO  ApacheHttpClient.sendEvent(516) - responseCode = 200
+2019-10-26 20:30:24 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
+
+2019-10-26 20:30:24 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
+
+2019-10-26 20:30:24 INFO  ApacheHttpClient.getTask(469) - responseCode = 200
+2019-10-26 20:30:24 INFO  ApacheHttpClient.getTask(469) - responseCode = 200
+2019-10-26 20:30:24 INFO  ApacheHttpClient.getTask(469) - responseCode = 200
+2019-10-26 20:30:24 INFO  ApacheHttpClient.getTask(469) - responseCode = 200
+2019-10-26 20:30:24 INFO  ApacheHttpClient.getTask(469) - responseCode = 200
+2019-10-26 20:30:24 INFO  ApacheHttpClient.getTask(469) - responseCode = 200
+2019-10-26 20:30:24 INFO  ApacheHttpClient.getTask(469) - responseCode = 200
+2019-10-26 20:30:24 INFO  ApacheHttpClient.getTask(469) - responseCode = 200
+2019-10-26 20:30:24 INFO  ApacheHttpClient.getTask(469) - responseCode = 200
+2019-10-26 20:30:24 INFO  ApacheHttpClient.getTask(469) - responseCode = 200
+2019-10-26 20:30:24 INFO  ApacheHttpClient.getTask(469) - responseCode = 200
+2019-10-26 20:30:24 INFO  ApacheHttpClient.getTask(469) - responseCode = 200
+2019-10-26 20:30:25 INFO  ApacheHttpClient.getTask(469) - responseCode = 200
+2019-10-26 20:30:25 INFO  ApacheHttpClient.getTask(469) - responseCode = 200
