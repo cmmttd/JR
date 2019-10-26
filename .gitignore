@@ -6,3 +6,5 @@ Instruction.png
 JavaRushPlugin.properties
 JavaRushTasks.iml
 out/
+
+.gitignore
