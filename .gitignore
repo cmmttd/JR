@@ -1,2 +1,7 @@
-﻿*.log
+﻿out.log
 Ins.png
+Instruction.png
+out/production
+JavaRushPlugin.properties
+JavaRushTasks.iml
+.idea
