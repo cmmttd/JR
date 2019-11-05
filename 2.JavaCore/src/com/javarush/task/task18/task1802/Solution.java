@@ -1,4 +1,4 @@
-package com.javarush.task.task18.task1801;
+package com.javarush.task.task18.task1802;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -6,7 +6,7 @@ import java.io.FileInputStream;
 import java.io.InputStreamReader;
 
 /* 
-Максимальный байт
+Минимальный байт
 */
 
 public class Solution {
@@ -14,14 +14,15 @@ public class Solution {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         String fileName = br.readLine();
+
         FileInputStream fis = new FileInputStream(new File(fileName));
-        byte max = Byte.MIN_VALUE;
+        byte min = Byte.MAX_VALUE;
         while (fis.available() != 0){
             byte temp = (byte) fis.read();
-            if (temp > max) max = temp;
+            if (temp < min) min = temp;
         }
-        System.out.println(max);
         br.close();
         fis.close();
+        System.out.println(min);
     }
 }
