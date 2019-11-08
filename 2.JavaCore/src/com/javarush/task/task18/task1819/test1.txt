@@ -1,0 +1,3 @@
+qwerty
+ololoC:\Repositories\JavaRush\JavaRushTasks\2.JavaCore\src\com\javarush\task\task18\task1819\test1.txt
+C:\Repositories\JavaRush\JavaRushTasks\2.JavaCore\src\com\javarush\task\task18\task1819\test2.txt
