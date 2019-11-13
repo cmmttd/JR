@@ -7,7 +7,7 @@ import java.nio.channels.FileChannel;
 
 /* 
 AmigoOutputStream
-*/
+*//*
 
 public class AmigoOutputStream extends FileOutputStream {
     public static String fileName = "C:/tmp/result.txt";
@@ -53,3 +53,4 @@ public class AmigoOutputStream extends FileOutputStream {
         fs.close();
     }
 }
+*/
