@@ -8,6 +8,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.stream.Stream;
 
 public class Solution {
     public static void main(String[] args) throws IOException {
@@ -20,8 +21,7 @@ public class Solution {
         }
         fr.close();
 //        #1  validator say something wrong...
-        int len = sb.toString().split("world", -1).length - 1;
+        int len = sb.toString().split("\\bworld\\b").length - 1;
         System.out.println(len < 0 ? 0 : len);
-//        sb.toString().stream
     }
 }
