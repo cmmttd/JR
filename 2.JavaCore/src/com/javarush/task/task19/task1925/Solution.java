@@ -4,16 +4,23 @@ package com.javarush.task.task19.task1925;
 Длинные слова
 */
 
-import java.util.ArrayList;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
 public class Solution {
-    public static void main(String[] args) {
-        ArrayList<String> al = new ArrayList<>(Arrays.asList("1,2,3,4,5", "a,b,c,d"));
-        ArrayList<String> al2 = al.stream().flatMap(x -> Arrays.asList(x.split(",")).stream()).collect(Collectors.toCollection(ArrayList::new));
-        al.forEach(System.out::println);
-        System.out.println();
-        al.stream().flatMap(x -> Arrays.asList(x.chars()).stream()).mapToInt(Collectors.toCollection(ArrayList::new)).filter(x -> x !+ ',') .forEach(System.out::print);
+    public static void main(String[] args) throws Exception{
+        BufferedReader f1 = new BufferedReader(new FileReader(args[0]));
+        BufferedWriter f2 = new BufferedWriter(new FileWriter(args[1]));
+
+        String s = String.join(",", Arrays.stream(f1.lines().collect(Collectors.joining()).split("\\s+")).filter(x -> x.length() > 6).toArray(String[]::new));
+        f1.close();
+
+        f2.write(s);
+        f2.close();
+
     }
 }
