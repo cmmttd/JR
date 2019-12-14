@@ -1,5 +1,6 @@
 package com.javarush.task.task20.task2002;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class User {
@@ -8,6 +9,15 @@ public class User {
     private Date birthDate;
     private boolean isMale;
     private Country country;
+
+    @Override
+    public String toString() {
+        return this.getFirstName() + ";" +
+                this.getLastName() + ";" +
+                this.getBirthDate().getTime() + ";" +
+                this.isMale() + ";" +
+                this.getCountry().getDisplayName();
+    }
 
     public String getFirstName() {
         return firstName;
@@ -75,7 +85,8 @@ public class User {
         if (isMale != user.isMale) return false;
         if (firstName != null ? !firstName.equals(user.firstName) : user.firstName != null) return false;
         if (lastName != null ? !lastName.equals(user.lastName) : user.lastName != null) return false;
-        if (birthDate != null ? !birthDate.equals(user.birthDate) : user.birthDate != null) return false;
+
+        if (birthDate != null ? !(birthDate).equals(user.birthDate) : user.birthDate != null) return false;
         return country == user.country;
 
     }
