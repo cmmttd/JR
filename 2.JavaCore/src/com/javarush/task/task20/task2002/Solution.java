@@ -42,7 +42,7 @@ public class Solution {
             System.out.println(javaRush.equals(loadedObject));
 
             outputStream.close();
-            inputStream.close();
+            inputStream.close()
 
         } catch (IOException e) {
             //e.printStackTrace();
