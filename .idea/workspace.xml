@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="some tasks 17 lvl">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task20/task2002/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task20/task2002/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task20/task2004/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task20/task2004/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,7 @@
       <command value="mvn" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -273,12 +273,12 @@
       <method />
     </configuration>
     <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2001.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2008.Solution" />
       <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task20.task2001.*" />
+          <option name="PATTERN" value="com.javarush.task.task20.task2008.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,13 +314,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2005.Solution" />
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2004.Solution" />
       <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task20.task2005.*" />
+          <option name="PATTERN" value="com.javarush.task.task20.task2004.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,12 +329,12 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task19.task1916.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2006.Solution" />
       <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task19.task1916.*" />
+          <option name="PATTERN" value="com.javarush.task.task20.task2006.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -478,19 +478,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution (4)" />
+        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -564,10 +564,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="177" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1576352363690" />
-    <state x="765" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1576963749163">
+    <state x="765" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1576967652857">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1576963749163" />
+    <state x="765" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1576967652857" />
     <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576962130311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -576,22 +576,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576352240449" />
-    <state width="1705" height="187" key="GridCell.Tab.0.bottom" timestamp="1576965944852">
+    <state width="1920" height="187" key="GridCell.Tab.0.bottom" timestamp="1576968538942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1705" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576965944852" />
-    <state width="1705" height="187" key="GridCell.Tab.0.center" timestamp="1576965944852">
+    <state width="1920" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576968538942" />
+    <state width="1920" height="187" key="GridCell.Tab.0.center" timestamp="1576968538942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1705" height="187" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576965944852" />
-    <state width="1705" height="187" key="GridCell.Tab.0.left" timestamp="1576965944852">
+    <state width="1920" height="187" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576968538942" />
+    <state width="1920" height="187" key="GridCell.Tab.0.left" timestamp="1576968538941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1705" height="187" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576965944852" />
-    <state width="1705" height="187" key="GridCell.Tab.0.right" timestamp="1576965944852">
+    <state width="1920" height="187" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576968538941" />
+    <state width="1920" height="187" key="GridCell.Tab.0.right" timestamp="1576968538942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1705" height="187" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576965944852" />
+    <state width="1920" height="187" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576968538942" />
     <state x="440" y="93" key="SettingsEditor" timestamp="1576352380436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
