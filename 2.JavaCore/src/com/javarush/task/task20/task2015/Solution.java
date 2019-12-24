@@ -7,7 +7,7 @@ import java.time.Clock;
 Переопределение сериализации
 */
 public class Solution implements Serializable, Runnable{
-    private Thread runner;
+    transient private Thread runner;
     private int speed;
 
     public Solution(int speed) {
@@ -18,7 +18,6 @@ public class Solution implements Serializable, Runnable{
 
     public void run() {
         // do something here, doesn't matter what
-        while (true) System.out.println(Clock.systemDefaultZone().instant());
     }
 
     /**
@@ -34,15 +33,11 @@ public class Solution implements Serializable, Runnable{
 
     private void readObject(ObjectInputStream in) throws IOException, ClassNotFoundException {
         in.defaultReadObject();
-
+        this.runner = new Thread(this);
+        runner.start();
     }
 
     public static void main(String[] args) throws Exception{
-        File f = File.createTempFile("temp", "");
-        OutputStream os = new FileOutputStream(f);
-
-        Solution s1 =  new Solution(12);
-
 
     }
 }
