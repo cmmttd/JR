@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="some tasks 17 lvl">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/JavaRushIdeaPlugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task20/task2003/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task20/task2003/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaRushTasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushTasks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task20/task2024/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task20/task2024/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task20/task2024/Условие.jrtc" beforeDir="false" afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task20/task2024/Условие.jrtc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,12 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -69,7 +74,7 @@
       <command value="mvn" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -91,12 +96,12 @@
       </method>
     </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2002.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2025.Solution" />
       <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task20.task2002.*" />
+          <option name="PATTERN" value="com.javarush.task.task20.task2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,13 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2004.Solution" />
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2024.Solution" />
       <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task20.task2004.*" />
+          <option name="PATTERN" value="com.javarush.task.task20.task2024.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,18 +336,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
-      <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (5)" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +391,11 @@
       <workItem from="1578320082866" duration="102000" />
       <workItem from="1578320243718" duration="17000" />
       <workItem from="1578320355791" duration="101000" />
-      <workItem from="1578320533039" duration="346000" />
+      <workItem from="1578320533039" duration="620000" />
+      <workItem from="1578323420261" duration="813000" />
+      <workItem from="1578324684588" duration="831000" />
+      <workItem from="1578335456274" duration="136000" />
+      <workItem from="1578335633459" duration="7070000" />
     </task>
     <servers />
   </component>
@@ -434,26 +443,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576962130311" />
+    <state x="690" y="268" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1578337244664">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="268" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578337244664" />
     <state x="666" y="260" key="FileChooserDialogImpl" timestamp="1578320132665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578320132665" />
-    <state width="1921" height="161" key="GridCell.Tab.0.bottom" timestamp="1578319947748">
+    <state width="1921" height="161" key="GridCell.Tab.0.bottom" timestamp="1578342739921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="161" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578319947748" />
-    <state width="1921" height="161" key="GridCell.Tab.0.center" timestamp="1578319947748">
+    <state width="1921" height="161" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578342739921" />
+    <state width="1921" height="161" key="GridCell.Tab.0.center" timestamp="1578342739920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="161" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578319947748" />
-    <state width="1921" height="161" key="GridCell.Tab.0.left" timestamp="1578319947748">
+    <state width="1921" height="161" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578342739920" />
+    <state width="1921" height="161" key="GridCell.Tab.0.left" timestamp="1578342739920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="161" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578319947748" />
-    <state width="1921" height="161" key="GridCell.Tab.0.right" timestamp="1578319947748">
+    <state width="1921" height="161" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578342739920" />
+    <state width="1921" height="161" key="GridCell.Tab.0.right" timestamp="1578342739921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="161" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578319947748" />
+    <state width="1921" height="161" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578342739921" />
+    <state width="1921" height="356" key="GridCell.Tab.1.bottom" timestamp="1578340781710">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578340781710" />
+    <state width="1921" height="356" key="GridCell.Tab.1.center" timestamp="1578340781710">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578340781710" />
+    <state width="1921" height="356" key="GridCell.Tab.1.left" timestamp="1578340781710">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578340781710" />
+    <state width="1921" height="356" key="GridCell.Tab.1.right" timestamp="1578340781710">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578340781710" />
     <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1578319090962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -462,21 +491,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578319825790" />
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1578320684762">
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1578335921119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578320684762" />
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578335921119" />
     <state x="342" y="141" key="new project wizard" timestamp="1578319984797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="141" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1578319984797" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1578319091118">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1578339967648">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578319091118" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578319994526">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578339967648" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578335992269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578319994526" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578335992269" />
   </component>
 </project>
