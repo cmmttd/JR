@@ -47,6 +47,7 @@ public class Solution {
 
     public static void main(String[] args) {
         new Thread(() -> new Solution().fillInPropertiesMap()).start();
+        System.out.println("hello");
     }
 }
 
