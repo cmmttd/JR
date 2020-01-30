@@ -1,11 +1,16 @@
 package com.javarush.task.task20.task2028;
 
+<<<<<<< HEAD
 import java.io.Serializable;
 import java.util.AbstractList;
+=======
+import java.util.List;
+>>>>>>> 204ef3588bc43f51a83e8b47dff53bb8b02ee0a3
 
 /* 
 Построй дерево(1)
 */
+<<<<<<< HEAD
 public class CustomTree extends AbstractList implements Cloneable, Serializable {
 
     private Node root;
@@ -41,4 +46,8 @@ public class CustomTree extends AbstractList implements Cloneable, Serializable 
     public int size() {
         return 0;
     }
+=======
+public class CustomTree {
+
+>>>>>>> 204ef3588bc43f51a83e8b47dff53bb8b02ee0a3
 }
