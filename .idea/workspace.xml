@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="some tasks 17 lvl">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3210/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task20/task2028/CustomTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task20/task2028/CustomTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task20/task2028/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task20/task2028/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3201/123.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3201/123.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3201/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3201/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,23 +79,9 @@
       <command value="mvn" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (5)">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task31.task3107.Solution" />
-      <module name="4.JavaCollections" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task31.task3107.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,13 +128,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javarush.task.task32.task3201.Solution" />
       <module name="4.JavaCollections" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\Home\IdeaProjects\JavaRushTasks\4.JavaCollections\src\com\javarush\task\task32\task3201\123.txt 3 data" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.javarush.task.task32.task3201.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task32.task3210.Solution" />
+      <module name="4.JavaCollections" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\Home\IdeaProjects\JavaRushTasks\4.JavaCollections\src\com\javarush\task\task32\task3201\123.txt 1 werty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task32.task3210.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -353,13 +353,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.Solution" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (5)" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -429,7 +435,7 @@
       <workItem from="1580212057916" duration="1239000" />
       <workItem from="1580308174684" duration="339000" />
       <workItem from="1580399890203" duration="21000" />
-      <workItem from="1580504698247" duration="156000" />
+      <workItem from="1580504698247" duration="1728000" />
     </task>
     <servers />
   </component>
@@ -474,10 +480,10 @@
     </state>
     <state x="552" y="179" key="#Plugins/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1578916373335" />
     <state x="552" y="179" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1578320063722" />
-    <state x="467" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578857028641">
+    <state x="467" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580506269413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="467" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578857028641" />
+    <state x="467" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580506269413" />
     <state x="753" y="264" width="390" height="570" key="#com.intellij.ide.util.MemberChooser" timestamp="1578606860437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -495,26 +501,26 @@
     </state>
     <state x="666" y="260" key="FileChooserDialogImpl/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1578916370401" />
     <state x="666" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578609156869" />
-    <state width="1877" height="127" key="GridCell.Tab.0.bottom" timestamp="1580504817231">
+    <state width="1877" height="127" key="GridCell.Tab.0.bottom" timestamp="1580506537637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="166" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1579185212839" />
-    <state width="1877" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580504817231" />
-    <state width="1877" height="127" key="GridCell.Tab.0.center" timestamp="1580504817230">
+    <state width="1877" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580506537637" />
+    <state width="1877" height="127" key="GridCell.Tab.0.center" timestamp="1580506537636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="166" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1579185212839" />
-    <state width="1877" height="127" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580504817230" />
-    <state width="1877" height="127" key="GridCell.Tab.0.left" timestamp="1580504817230">
+    <state width="1877" height="127" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580506537636" />
+    <state width="1877" height="127" key="GridCell.Tab.0.left" timestamp="1580506537636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="166" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1579185212839" />
-    <state width="1877" height="127" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580504817230" />
-    <state width="1877" height="127" key="GridCell.Tab.0.right" timestamp="1580504817231">
+    <state width="1877" height="127" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580506537636" />
+    <state width="1877" height="127" key="GridCell.Tab.0.right" timestamp="1580506537636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="166" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1579185212839" />
-    <state width="1877" height="127" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580504817231" />
+    <state width="1877" height="127" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580506537636" />
     <state width="1688" height="356" key="GridCell.Tab.1.bottom" timestamp="1578686786043">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -535,11 +541,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="254" height="198" key="RunAnythingAction_Filter_Popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578319090962" />
-    <state x="440" y="93" key="SettingsEditor" timestamp="1579185714771">
+    <state x="440" y="93" key="SettingsEditor" timestamp="1580506453047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="93" key="SettingsEditor/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1579185714771" />
-    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578609163940" />
+    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580506453047" />
     <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1580456519266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -557,10 +563,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578580039763" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579185617901">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580506431823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1579185617901" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578335992269" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580506431823" />
   </component>
 </project>

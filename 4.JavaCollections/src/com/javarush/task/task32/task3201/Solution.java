@@ -7,17 +7,16 @@ import java.io.RandomAccessFile;
 */
 public class Solution {
     public static void main(String... args) {
-//        String file = args[0];
-//        int position = Integer.parseInt(args[1]);
-//        String data = args[2];
+        String file = args[0];
+        int position = Integer.parseInt(args[1]);
+        String data = args[2];
 
-        System.out.println("123");
-
-//        try (RandomAccessFile raf = new RandomAccessFile(file, "rw")) {
-//            raf.seek(position);
-//            raf.writeUTF(data);
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
+        try (RandomAccessFile raf = new RandomAccessFile(file, "rw")) {
+            raf.seek(position >= raf.length() ?
+                    raf.length() : position);
+            raf.write(data.getBytes());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
