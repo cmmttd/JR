@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="randomAccessFile done">
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3203/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3203/Условие.jrtc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3204/PasswordGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3204/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3204/Условие.jrtc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3213/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3213/Условие.jrtc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3202/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.JavaCollections/src/com/javarush/task/task32/task3202/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporaryIni.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,20 +86,34 @@
       <command value="mvn" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task31.task3108.Solution" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task32.task3202.Solution" />
       <module name="4.JavaCollections" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task31.task3108.*" />
+          <option name="PATTERN" value="com.javarush.task.task32.task3202.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task32.task3213.Solution" />
+      <module name="4.JavaCollections" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task32.task3213.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +122,12 @@
       </method>
     </configuration>
     <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task31.task3109.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task32.task3204.Solution" />
       <module name="4.JavaCollections" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task31.task3109.*" />
+          <option name="PATTERN" value="com.javarush.task.task32.task3204.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,13 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task20.task2001.Solution" />
-      <module name="2.JavaCore" />
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task32.task3203.Solution" />
+      <module name="4.JavaCollections" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task20.task2001.*" />
+          <option name="PATTERN" value="com.javarush.task.task32.task3203.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -351,18 +375,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
-      <item itemvalue="Application.Solution (4)" />
-      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution (5)" />
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -433,7 +458,7 @@
       <workItem from="1580308174684" duration="339000" />
       <workItem from="1580399890203" duration="21000" />
       <workItem from="1580504698247" duration="1931000" />
-      <workItem from="1580587123469" duration="332000" />
+      <workItem from="1580587123469" duration="9829000" />
     </task>
     <servers />
   </component>
@@ -507,42 +532,42 @@
     </state>
     <state x="666" y="260" key="FileChooserDialogImpl/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1578916370401" />
     <state x="666" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578609156869" />
-    <state width="1877" height="127" key="GridCell.Tab.0.bottom" timestamp="1580506657543">
+    <state width="1877" height="183" key="GridCell.Tab.0.bottom" timestamp="1580596813738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="166" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1579185212839" />
-    <state width="1877" height="127" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580506657543" />
-    <state width="1877" height="127" key="GridCell.Tab.0.center" timestamp="1580506657543">
+    <state width="1877" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580596813738" />
+    <state width="1877" height="183" key="GridCell.Tab.0.center" timestamp="1580596813737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="166" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1579185212839" />
-    <state width="1877" height="127" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580506657543" />
-    <state width="1877" height="127" key="GridCell.Tab.0.left" timestamp="1580506657543">
+    <state width="1877" height="183" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580596813737" />
+    <state width="1877" height="183" key="GridCell.Tab.0.left" timestamp="1580596813737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="166" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1579185212839" />
-    <state width="1877" height="127" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580506657543" />
-    <state width="1877" height="127" key="GridCell.Tab.0.right" timestamp="1580506657543">
+    <state width="1877" height="183" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580596813737" />
+    <state width="1877" height="183" key="GridCell.Tab.0.right" timestamp="1580596813738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="166" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1579185212839" />
-    <state width="1877" height="127" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580506657543" />
-    <state width="1688" height="356" key="GridCell.Tab.1.bottom" timestamp="1578686786043">
+    <state width="1877" height="183" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580596813738" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1580592331199">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1688" height="356" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578686786043" />
-    <state width="1688" height="356" key="GridCell.Tab.1.center" timestamp="1578686786043">
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580592331199" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1580592331199">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1688" height="356" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578686786043" />
-    <state width="1688" height="356" key="GridCell.Tab.1.left" timestamp="1578686786043">
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580592331199" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1580592331199">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1688" height="356" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578686786043" />
-    <state width="1688" height="356" key="GridCell.Tab.1.right" timestamp="1578686786043">
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580592331199" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1580592331199">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1688" height="356" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578686786043" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580592331199" />
     <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1578319090962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -569,10 +594,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578580039763" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580506431823">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580596296584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1579185617901" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580506431823" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580596296584" />
   </component>
 </project>
