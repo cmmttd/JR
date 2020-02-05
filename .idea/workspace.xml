@@ -77,7 +77,7 @@
       <command value="mvn" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -112,13 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task32.task3211.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task32.task3212.Solution" />
       <module name="4.JavaCollections" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task32.task3211.*" />
+          <option name="PATTERN" value="com.javarush.task.task32.task3212.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -366,19 +366,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -452,7 +452,8 @@
       <workItem from="1580587123469" duration="10012000" />
       <workItem from="1580637064867" duration="9455000" />
       <workItem from="1580649125016" duration="13000" />
-      <workItem from="1580762967385" duration="1840000" />
+      <workItem from="1580762967385" duration="1924000" />
+      <workItem from="1580930462910" duration="1382000" />
     </task>
     <servers />
   </component>
@@ -526,26 +527,26 @@
     </state>
     <state x="666" y="260" key="FileChooserDialogImpl/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1578916370401" />
     <state x="666" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578609156869" />
-    <state width="1877" height="170" key="GridCell.Tab.0.bottom" timestamp="1580764728879">
+    <state width="1877" height="170" key="GridCell.Tab.0.bottom" timestamp="1580932047662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="166" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1579185212839" />
-    <state width="1877" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580764728879" />
-    <state width="1877" height="170" key="GridCell.Tab.0.center" timestamp="1580764728879">
+    <state width="1877" height="170" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580932047662" />
+    <state width="1877" height="170" key="GridCell.Tab.0.center" timestamp="1580932047662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="166" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1579185212839" />
-    <state width="1877" height="170" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580764728879" />
-    <state width="1877" height="170" key="GridCell.Tab.0.left" timestamp="1580764728878">
+    <state width="1877" height="170" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580932047662" />
+    <state width="1877" height="170" key="GridCell.Tab.0.left" timestamp="1580932047662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="166" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1579185212839" />
-    <state width="1877" height="170" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580764728878" />
-    <state width="1877" height="170" key="GridCell.Tab.0.right" timestamp="1580764728879">
+    <state width="1877" height="170" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580932047662" />
+    <state width="1877" height="170" key="GridCell.Tab.0.right" timestamp="1580932047662">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="166" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1579185212839" />
-    <state width="1877" height="170" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580764728879" />
+    <state width="1877" height="170" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580932047662" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1580597181320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -571,11 +572,11 @@
     </state>
     <state x="440" y="93" key="SettingsEditor/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1579185714771" />
     <state x="440" y="93" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580506453047" />
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1580649127199">
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1580930474645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.-130.1920.1040@0.0.1920.1040" timestamp="1580456519266" />
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580649127199" />
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580930474645" />
     <state width="374" height="298" key="javadoc.popup.new" timestamp="1578859759258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
