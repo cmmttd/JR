@@ -11,4 +11,9 @@ public class Solution {
     public static void main(String[] args) {
 
     }
+
+    public class TestData{
+        public String name;
+        public int age;
+    }
 }
